@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minipay</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="h1">
+            <h1>مینی پی</h1>
+        </div>
+        <div class="p3">
+            <p>حس خوب پرداخت</p>
+        </div>
+        <div class="p1">
+            <p>ثبت نام یا ورود به مینی پی</p>
+        </div>
+        <div class="p2">
+            <p>جهت ورود یا ثبت نام در مینی پی ، لطفا شماره موبایلی که متعلق به خودتان هست را وارد کنید تا کد فعالسازی برای شما ارسال شود.</p>
+        </div>
+        <div >
+            <form action="server.php">
+                <input type="text" required maxlength="11" placeholder="به طور مثال 09123456789">
+            </form>
+            <div class="button" style="margin-top: 300px;">
+                <form action="server.php" >
+                    <input type="button" value="ارسال کد فعالسازی" style="background-color: #4c8b8b; color: white; margin:5px ;">
+                </form>
+            </div>    
+            <div class="button" style="margin-top: 5px;">
+                <form action="server.php" >
+                    <a  href="page2.html" style="width: 100%;margin-left: 16px;">
+                        <input type="button" value="ورود از طریق سایر گزینه ها" style="color: #4c8b8b; ">
+                    </a>
+                </form>        
+            </div>    
+        </div>
+    </div>
+    
+</body>
+</html>

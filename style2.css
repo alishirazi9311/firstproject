@@ -1,0 +1,119 @@
+body{
+    font-family: 'b titr';
+}
+.container2{ 
+    width: 350px;
+    padding: 0;
+    margin: 0 auto 0;
+        
+}
+.under{
+    width: 100%;
+    height: 600px;
+    background-color: #4c8b8b;
+    
+}
+.on{
+    width: 350px;
+    height: 450px;
+    padding: 0;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.one{
+    font-family: 'b titr';
+    color: white;
+    width: 90%;
+    height: 28px;
+    padding: 1px;
+    margin-top: 7px;
+    margin-left: 18px;
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 8px;
+    border-width: 0.2px;
+    border-color: #245c5c5d;
+    cursor: pointer;
+}
+.tow{
+    font-family: 'b titr';
+    color: white;
+    width: 90%;
+    height: 28px;
+    padding: 0;
+    margin-left: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    cursor: pointer;
+}
+.three{
+    font-family: 'b titr';
+    color: white;
+    border-width: 0cap;
+    background-color: rgba(186, 43, 43, 0);
+    text-align: center;
+    width: 20%;
+    height: 28px;
+    padding: 0;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.four{
+    width: 90%;
+    height: 28px;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+}
+input[type="button"]{
+    font-family: 'b titr';
+    width: 100px;
+    height: 28px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.23);
+    border-radius: 8px;
+    border-width: 0.1px;
+    border-color: #245c5c5d;
+    cursor: pointer;
+    
+}
+.five{
+    width: 95%;
+    height: 48px;
+    font-family: 'Iran Yekan';
+    display: flex;
+    margin: 0 auto 0;
+    border-bottom: 1px solid #3332326c;
+    transition: transform .2s;
+}
+.five:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05); 
+    transform: scale(1.05);
+  }
+.six{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 68px;
+    font-family: 'Iran Yekan';
+    margin-top: 230px;
+    border-top: 1px solid #3332326c;
+    cursor: pointer;
+}
+.seven{
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+}
